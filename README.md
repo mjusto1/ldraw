@@ -5,7 +5,7 @@ This is a mirror of the LDraw LEGO parts library available at [ldraw.org](https:
 ### Usage
 
 ```
-git clone https://github.com/pybricks/ldraw.git
+git clone <ldraw-mirror-repository-url>
 ```
 
 This creates the `ldraw` folder. Use it like you always do.
@@ -19,12 +19,12 @@ This creates the `ldraw` folder. Use it like you always do.
 ### Tips for Linux users (Optional)
 
 The main purpose of this repository is simply to provide the LDraw library,
-which is platform independent. Just clone the repository, or download and unzip [it](https://github.com/pybricks/ldraw/archive/master.zip).
+which is platform independent. Just clone the repository, or download and unzip an archive copy.
 You can do this on Windows, Mac, or Linux.
 
 Most LDraw tools and tutorials assume that you use Windows. The following tips are intended to make life a bit easier for Linux users:
 - Do not install `ldraw-parts` with `apt`. It is outdated.
 - LSynth does not provide binaries for Linux, but you can [build it easily](./lsynth). All its dependencies are included, too. You no longer need to search the web for three different zip archives in different locations.
 - A few Linux-compatible LDraw CAD tools do exist, such as [LeoCAD](https://www.leocad.org/). Also, [MLCAD works well with Wine.](./mlcad)
-- [LPub3D](https://trevorsandy.github.io/lpub3d/) is available as an `AppImage`, which conveniently bundles several renderers with it. Before you run it, create a symlink to this repository using `ln -s my/path/to/repo/ldraw/ ~/Documents/ldraw` (replace the first path with your own). LPub3D will look there when you run it for the first time.
+- LPub3D is available as an `AppImage`, which conveniently bundles several renderers with it. Before you run it, create a symlink to this repository using `ln -s my/path/to/repo/ldraw/ ~/Documents/ldraw` (replace the first path with your own). LPub3D will look there when you run it for the first time.
 
